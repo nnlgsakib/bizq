@@ -1,0 +1,76 @@
+=============== Mar 16, 2024 (UTC) ===============
+09:49:22.110228 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:49:22.112446 db@open opening
+09:49:22.112938 version@stat F·[] S·0B[] Sc·[]
+09:49:22.114562 db@janitor F·2 G·0
+09:49:22.114598 db@open done T·2.128604ms
+09:49:22.115896 db@close closing
+09:49:22.115959 db@close done T·62.673µs
+=============== Mar 16, 2024 (UTC) ===============
+09:49:26.517148 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:49:26.517279 version@stat F·[] S·0B[] Sc·[]
+09:49:26.517312 db@open opening
+09:49:26.517347 journal@recovery F·1
+09:49:26.519888 journal@recovery recovering @1
+09:49:26.521874 memdb@flush created L0@2 N·22 S·18KiB "8ρ..\x86K$,v12":"\x83\x1d\x88..\a\x9d=,v9"
+09:49:26.525478 version@stat F·[1] S·18KiB[18KiB] Sc·[0.25]
+09:49:26.528411 db@janitor F·3 G·0
+09:49:26.528475 db@open done T·11.120146ms
+09:53:26.911772 db@close closing
+09:53:26.911845 db@close done T·71.163µs
+=============== Mar 16, 2024 (UTC) ===============
+09:53:35.690440 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:53:35.690909 version@stat F·[1] S·18KiB[18KiB] Sc·[0.25]
+09:53:35.690935 db@open opening
+09:53:35.691034 journal@recovery F·1
+09:53:35.693683 journal@recovery recovering @3
+09:53:35.702057 memdb@flush created L0@5 N·2007 S·108KiB "*\xd7^..\n-\x0e,v2003":"\xfe\xaem..\xf8Ξ,v2012"
+09:53:35.705923 version@stat F·[2] S·126KiB[126KiB] Sc·[0.50]
+09:53:35.709481 db@janitor F·4 G·0
+09:53:35.709512 db@open done T·18.567331ms
+10:00:52.201629 db@close closing
+10:00:52.201710 db@close done T·80.972µs
+=============== Mar 16, 2024 (UTC) ===============
+10:01:08.002269 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:01:08.002523 version@stat F·[2] S·126KiB[126KiB] Sc·[0.50]
+10:01:08.002545 db@open opening
+10:01:08.002615 journal@recovery F·1
+10:01:08.005109 journal@recovery recovering @6
+10:01:08.014278 memdb@flush created L0@8 N·1777 S·93KiB "H\x00W..4,m,v2692":"unc..own,v2032"
+10:01:08.016617 version@stat F·[3] S·220KiB[220KiB] Sc·[0.75]
+10:01:08.020367 db@janitor F·5 G·0
+10:01:08.020409 db@open done T·17.842419ms
+10:03:12.799625 db@close closing
+10:03:12.799693 db@close done T·66.95µs
+=============== Mar 16, 2024 (UTC) ===============
+10:05:40.913181 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:05:40.914314 version@stat F·[3] S·220KiB[220KiB] Sc·[0.75]
+10:05:40.914366 db@open opening
+10:05:40.914432 journal@recovery F·1
+10:05:40.917529 journal@recovery recovering @9
+10:05:40.922770 memdb@flush created L0@11 N·1030 S·55KiB "H\x02\xaf..0\xa5\x14,v4092":"unc..own,v3810"
+10:05:40.926229 version@stat F·[4] S·275KiB[275KiB] Sc·[1.00]
+10:05:40.930899 db@janitor F·6 G·0
+10:05:40.930930 db@open done T·16.556463ms
+10:05:40.931049 table@compaction L0·4 -> L1·0 S·275KiB Q·4840
+10:05:40.937153 table@build created L1@14 N·3238 S·207KiB "*\xd7^..\n-\x0e,v2003":"\xfe\xaem..\xf8Ξ,v2012"
+10:05:40.937217 version@stat F·[0 1] S·207KiB[0B 207KiB] Sc·[0.00 0.00]
+10:05:40.937864 table@compaction committed F-3 S-68KiB Ke·0 D·1598 T·6.787576ms
+10:05:40.937979 table@remove removed @8
+10:05:40.938030 table@remove removed @5
+10:05:40.938056 table@remove removed @2
+10:05:48.510085 db@close closing
+10:05:48.510148 db@close done T·63.398µs
+=============== Mar 16, 2024 (UTC) ===============
+10:10:55.269254 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:10:55.269421 version@stat F·[0 1] S·207KiB[0B 207KiB] Sc·[0.00 0.00]
+10:10:55.269439 db@open opening
+10:10:55.269490 journal@recovery F·1
+10:10:55.271811 journal@recovery recovering @12
+10:10:55.273604 memdb@flush created L0@15 N·13 S·1KiB "H4\xd2..\xa3\x95\xfe,v4844":"unc..own,v4841"
+10:10:55.275830 version@stat F·[1 1] S·209KiB[1KiB 207KiB] Sc·[0.25 0.00]
+10:10:55.278766 db@janitor F·5 G·1
+10:10:55.278780 db@janitor removing table-11
+10:10:55.278812 db@open done T·9.368059ms
+10:11:56.015107 db@close closing
+10:11:56.015190 db@close done T·80.754µs
